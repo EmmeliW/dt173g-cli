@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <!--Stylesheet-->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <title>Emmeli Wiklund - Fullstack developer</title>
+</head>
+<body id="up">
+    <main>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/EmmeliW" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/emmeli-wiklund-4b3620a6/" target="_blank">LinkedIn</a></li>
+                    <li><a href="mailto:emmeli.wiklund@outlook.com">Contact</a></li>
+                </ul>  
+
+        
+                <a href="javascript:void(0)" class="open-button" id="open-button" onclick="openNav()"><i class="fas fa-bars"></i></a>
+                <a href="javascript:void(0)" class="close-button" id="close-button" onclick="closeNav()"><i class="fas fa-times"></i></a> <!--Hidden by default-->                        
+                <div id="mobile-menu">
+                    <a href="https://github.com/EmmeliW" target="_blank" onclick="closeNav()">GitHub</a>
+                    <a href="https://www.linkedin.com/in/emmeli-wiklund-4b3620a6/" target="_blank" onclick="closeNav()">LinkedIn</a>
+                    <a href="#qualities" onclick="closeNav()">Qualities</a>
+                    <a href="#skills" onclick="closeNav()">Skills</a>
+                    <a href="#projects" onclick="closeNav()">Projects</a>
+                    <a href="#experience" onclick="closeNav()">Experience</a>
+                    <a href="mailto:emmeli.wiklund@outlook.com" onclick="closeNav()">Contact</a>
+                </div>                    
+            </nav>
+
+
+        
+            <div class="meStuff">
+                <h1>Hi you,</h1>
+                <h2 class="myName">I'm Emmeli Wiklund.</h2>
+                <h5>Fullstack developer with a passion for frontend.</h5>
+            </div>
+        </header>
+
+        <div class="content">
+
+            <section class="section" id="qualities">
+                <h2>Qualities</h2>
+                    <div class="flexbox">
+                       <div class="qualities-box-1">
+                            <p class="flexbox-heading">Strengths</p>
+                            <p class="quality">creative</p>
+                            <p class="quality">enthusiastic</p>
+                            <p class="quality">curious</p>
+                            <p class="quality">structured</p>
+                            <p class="quality">attentive</p>
+                            <p class="quality">passionate</p>
+                            <p class="quality">intuitive</p>
+                       </div> <!-- qualities-box-1 -->
+                        <div class="qualities-box-2">
+                            <p class="flexbox-heading">About me</p>
+                                <p class="about-me-text">
+                                    Lie in the sink all day grass smells good 𝕄𝔼𝕆𝕎 fart in owners
+                                    food yet see owner, run in terror but meow all night having their 
+                                    mate disturbing sleeping humans. Who's the baby murder hooman toes 
+                                    and hopped up on catnip, but purr when give birth. Bite nose of your 
+                                    human i will be pet i will be pet and then i will hiss but meow 
+                                    all night having their mate disturbing sleeping humans but if it 
+                                    fits i sits.</p>
+                                <p class="about-me-text">
+                                    Cat slap dog in face refuse to come home when humans are going 
+                                    to bed; stay out all night then yowl like i am dying at 4am. 
+                                    Cat mojo fight an alligator and win intrigued by the shower. 
+                                    The fat cat sat on the mat bat away with paws plop down in the 
+                                    middle where everybody walks hiss and stare at nothing then 
+                                    run suddenly away. Murf pratt ungow ungow plop down in the 
+                                    middle where everybody walks refuse to leave cardboard box, 
+                                    peer out window, chatter at birds, lure them to mouth if it 
+                                    fits, i sits.</p>
+                        </div> <!-- qualities-box-2 -->
+                    </div> <!-- qualities-flexbox -->
+            </section> <!-- section -->
+
+
+            <section class="section" id="skills">
+                <h2>My skills</h2>
+                <div class="flexbox skills-flexbox">
+                    <div class="skills-box-1">
+                        <p class="flexbox-heading">Code</p>
+                        <p class="skills">HTML</p>
+                        <p class="skills">CSS</p>
+                        <p class="skills">JavaScript</p>
+                        <p class="skills">Vue.js</p>
+                        <p class="skills">Node.js</p>
+                        <p class="skills">Express</p>
+                        <p class="skills">PHP</p>
+                        <p class="skills">MySQL</p>
+                        <p class="skills">MongoDB</p>
+                        <p class="skills">C#</p>
+                        <p class="skills">.net</p>
+                    </div> <!-- skills-box-1 -->
+                    <div class="skills-box-2">
+                        <p class="flexbox-heading">Toolbox</p>
+                        <p class="toolbox">Wordpress</p>
+                        <p class="toolbox">API</p>
+                        <p class="toolbox">web usability</p>
+                        <p class="toolbox">responsive web design</p>
+                        <p class="toolbox">Mobile first</p>
+                    </div> <!-- skills-box-2 -->
+                </div> <!--skills-flexbox  -->
+            </section> <!-- section -->
+
+
+            <section class="section" id="projects">
+                <h3>My projects</h3>
+                <div id="webbDiv"></div>
+            </section> <!-- section -->
+
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+            <div class="flexbox">
+            <div class="experience-box-1">
+                <p class="flexbox-heading">Anställningar</p>
+                <div id="workDiv"></div>
+            </div> <!-- experience-flexbox -->
+            <div class="experience-box-2">
+                <p class="flexbox-heading">Utbildning</p>
+                <div id="eduDiv"></div>                
+            </div>   <!-- experience-flexbox -->              
+            </div> <!-- experience-flexbox -->
+        </section> <!-- section -->
+           
+        </div> <!-- content -->
+        <footer>
+            <h5>© Emmeli Wiklund</h5>
+            <div class="icons">
+                <a href="https://github.com/EmmeliW" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/emmeli-wiklund-4b3620a6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:emmeli.wiklund@outlook.com"><i class="far fa-envelope"></i></a>
+            </div>
+            <a class="top" href="#up">TOP <i class="fas fa-arrow-up"></i></a>
+        </footer>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

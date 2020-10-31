@@ -1,0 +1,78 @@
+/* Content */
+/* Highlighted projects */
+section {
+    margin-top: 150px;
+}
+
+#webbDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    .webb-project {
+        margin-top: 50px;
+        width: 28%;
+        min-width: 300px;
+        margin-right: 20px;
+
+        h4 {
+            margin: 20px 0;
+            text-align: center;
+        }
+        p {
+            line-height: 1.2em;
+            letter-spacing: 0.03em;
+        }
+        a {
+            width: 140px;
+            border-radius: 5px;
+            display: block;
+            margin-top: 20px;
+            padding: 6px 10px;
+            background-color: $secondairyColor;
+            color: $primaryColor;
+
+        }
+    }
+}
+
+
+/* Section 3 & 4 */
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.skills-box-1 {@include flex-boxes;}
+.qualities-box-1 {@include flex-boxes;}
+.skills-box-2 {@include flex-boxes;}
+
+.qualities-box-2 {
+    width: 48%;
+}
+.about-me-text {
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+.flexbox-heading {
+    color: white;
+    padding: 10px 20px;
+    width: 100%; 
+    text-align: center;
+    font-size: 30px;
+}
+.skills {@include importat-words;}
+.quality {@include importat-words;}
+.toolbox {@include importat-words;}
+
+.experience-box-1, .experience-box-2 {
+    width: 48%;
+    text-align: center;
+
+    h5 {margin: 30px 0 10px 0; font-size: 25px;}
+    .name {margin: 5px; font-size: 20px;}
+    .date {font-size: 15px; margin-bottom: 50px;}
+}

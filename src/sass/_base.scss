@@ -1,0 +1,25 @@
+$myFont: 'Josefin Sans', sans-serif;
+
+$primaryColor: #000;
+$secondairyColor: #fff;
+
+
+
+/* Mixins */
+@mixin flex-boxes {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@mixin importat-words {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 30px 10px 0 0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}

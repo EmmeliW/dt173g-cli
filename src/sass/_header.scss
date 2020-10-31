@@ -1,0 +1,33 @@
+header {
+        
+
+    margin-bottom: 300px;
+    /* Nav bar */
+    nav {
+        padding: 10px;
+        margin-bottom: 200px;
+
+        ul {
+            list-style-type: none;
+            text-align: end;
+        }  
+            li {
+                margin: 10px 10px 10px 80px;
+                display: inline-block;
+                font-size: 25px;
+                letter-spacing: 2px;
+            }
+            a {
+                padding: 10px;
+                border-radius: 10px;
+                color: #fff;
+            }
+            li > a:hover {
+                animation-name: animation-2;
+                animation-duration: 0.5s;
+                animation-fill-mode: forwards;
+            }
+    }
+    
+}
+
